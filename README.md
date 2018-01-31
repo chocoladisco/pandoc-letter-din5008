@@ -54,8 +54,8 @@ Before you can make use of the template you need to move the LaTeX template file
 into Pandocs template directory:
 
 ```
-mkdir ~/.pandoc
-mv your-repo-path/letter.latex ~/.pandoc/templates
+mkdir ~/.pandoc/templates
+ln -s your-repo-path/letter.latex ~/.pandoc/templates/letter.latex
 ```
 
 After creating a letter written in Markdown you can compile it into PDF with the
