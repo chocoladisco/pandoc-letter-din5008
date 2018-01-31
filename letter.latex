@@ -53,7 +53,7 @@
         $endfor$
     }
 
-        \opening{$opening$}
+        \opening{$opening$,}
 
         $body$
 
