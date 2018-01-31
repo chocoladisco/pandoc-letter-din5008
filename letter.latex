@@ -61,9 +61,9 @@
 
         \ps $postskriptum$
 
-        $if(encludes)$
+        $if(includes)$
             \setkomavar*{enclseparator}{Anlage}
-            \encl{$encludes$}
+            \encl{$includes$}
         $endif$
     \end{letter}
 \end{document}
